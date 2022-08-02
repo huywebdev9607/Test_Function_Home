@@ -1,0 +1,60 @@
+{
+    "username":"Username",
+    "password":"Password",
+    "firstName":"FirstName",
+    "lastName":"LastName",
+    "confirmPassword":"Confirm Password",
+    "login":"Login",
+    "logOut":"Logout",
+    "register":"Sign in",
+    "field":{
+        "required":"This field is required"
+    },
+    "loginResult":{
+        "success":"Login successfully",
+        "error":"Login failure",
+        "errorExpired":"Session has expired ! Please login "
+
+    },
+    "device":{
+        "type":"Device types",
+        "unit_test":"Device test suit",
+        "submit":"Setup",
+        "name":"Device name",
+        "notFound":"Updating"
+
+    },
+    "config":{
+        "header":"Choose settings",
+        "updateSuccess":"Update settings successfully",
+        "updateFail":"Update settings failed"
+    },
+    "testMode":{
+        "header":"PCBA Testing",
+        "resetBtn":"Reset",
+        "start":"Start Test",
+        "startTest":"Starting test",
+        "error":{
+            "noDevicesFound":"Please choose at least 1 device"
+        }
+
+    },
+    "nav":{
+        "title":{
+            "Setting":"Setting",
+            "Home":"Home"
+        }
+    },
+    "table":{
+        "label":{
+            "deviceName":"Device Name",
+            "accessTime":"Access Time",
+            "status":"Status",
+            "testStatus":"Test Result"
+        }
+    },
+    "rowPerPage":"Row Per Page",
+    "cancel":{
+        "checked":"Do you want to unselect?"
+    }
+}

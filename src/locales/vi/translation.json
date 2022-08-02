@@ -1,0 +1,57 @@
+{
+    "username":"Tên đăng nhập",
+    "password":"Mật khẩu",
+    "login":"Đăng nhập",
+    "register":"Đăng ký",
+    "firstName":"Họ và tên đệm",
+    "logOut":"Đăng xuất",
+    "lastName":"Tên",
+    "confirmPassword":"Nhập lại mật khẩu",
+    "field":{
+        "required":"Trường này là bắt buộc"
+    },
+    "loginResult":{
+        "success":"Đăng nhập thành công",
+        "error":"Đăng nhập thất bại",
+        "errorExpired":"Phiên đăng nhập đã hết hạn ! Vui lòng đăng nhập"
+    },
+    "device":{
+        "type":"Loại thiết bị",
+        "unit_test":"Mẫu kiểm thử",
+        "submit":"Thiết lập",
+        "name":"Tên thiết bị",
+        "notFound":"Chưa cập nhật"
+    },
+    "config":{
+        "header":"Thiết lập cài đặt",
+        "updateSuccess":"Thiết lập cài đặt thành công",
+        "updateFail":"Thiết lập cài đặt thất bại"
+    },
+    "testMode":{
+        "header":"Kiểm thử PCBA",
+        "resetBtn":"Quay lại",
+        "start":"Bắt đầu",
+        "startTest":"Bắt đầu tiến trình test",
+        "error":{
+            "noDevicesFound":"Vui lòng chọn ít nhất 1 thiết bị"
+        }
+    },
+    "nav":{
+        "title":{
+            "Setting":"Cài đặt",
+            "Home":"Trang chủ"
+        }
+    },
+    "table":{
+        "label":{
+            "deviceName":"Tên thiết bị",
+            "accessTime":"Thời gian đăng nhập",
+            "status":"Trạng thái",
+            "testStatus":"Kết quả test"
+        }
+    },
+    "rowPerPage":"Số dòng mỗi trang",
+    "cancel":{
+        "checked":"Bạn có chắc chắn muốn bỏ chọn?"
+    }
+}
