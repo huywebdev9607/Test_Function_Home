@@ -29,14 +29,14 @@ const items = [
     title: "Dashboard",
   },
   {
-    href: "/customers",
+    href: "/devices",
     icon: <DevicesIcon fontSize="large" />,
     title: "Devices",
   },
   {
-    href: "/customers",
+    href: "/results",
     icon: <AssessmentIcon fontSize="large" />,
-    title: "Result",
+    title: "Results",
   },
 //   {
 //     href: "/products",

@@ -5,7 +5,7 @@ type Props = {}
 
 const HomePage = (props: Props) => {
   return (
-    <DashboardLayout>HomePage</DashboardLayout>
+    <>HomePage</>
   )
 }
 

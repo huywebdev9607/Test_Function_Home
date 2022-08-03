@@ -46,15 +46,15 @@ const SocketProvider = ({children}: Props) => {
   },[socket.io._readyState])
 
 
-  useEffect(()=>{
-    if(isAuthenticated){
-      //Connect when login or expired
-      socket.connect()
-    }else{
-      //Disconnect when logout or expired
-      socket.disconnect()
-    }
-  },[isAuthenticated])
+  // useEffect(()=>{
+  //   if(isAuthenticated){
+  //     //Connect when login or expired
+  //     socket.connect()
+  //   }else{
+  //     //Disconnect when logout or expired
+  //     socket.disconnect()
+  //   }
+  // },[isAuthenticated])
 
   return (
     <SocketContext.Provider value={{socketState:{loading,error,data,isConnected},socket}}>{children}</SocketContext.Provider>

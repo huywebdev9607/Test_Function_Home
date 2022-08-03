@@ -1,9 +1,14 @@
 import React, { useContext } from 'react';
 import { Navigate, useRoutes } from 'react-router-dom';
+import DashboardLayout from 'src/components/Layout/DashboardLayout';
 import  Loading  from 'src/components/Loading';
 import { SocketContext } from 'src/context/SocketContext';
-// import HomePage from 'src/features/home';
+
 const HomePage = React.lazy(() => import('src/features/home'));
+const DevicesMananger = React.lazy(() => import('src/features/devices'));
+const ResultsManager = React.lazy(() => import('src/features/results'));
+
+
 
 
 
@@ -14,6 +19,14 @@ export default function ProtectedRoutes() {
         {
             path: 'home',
             element: <HomePage />,
+        },
+        {
+            path: 'devices',
+            element: <DevicesMananger />,
+        },
+        {
+            path: 'results',
+            element: <ResultsManager />,
         },
         {
             path: '*',
